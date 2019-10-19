@@ -1,0 +1,22 @@
+body {
+	padding-top: 4em;
+}
+.ui.blue.inverted.header {
+	margin-top: 3em;
+}
+.ui.blue.inverted.header > .content {
+	color: #fff;
+	text-shadow: 2px 2px 2px #222;
+	padding-left: 0 !important;
+}
+.ui.blue.inverted.header > .image, .ui.blue.inverted.header > img {
+	width: 4.5em;
+}
+@media (max-width: 767px) {
+	body {
+		padding-top: 0em;
+	}
+	.ui.blue.inverted.header {
+		margin-top: 0;
+	}
+}
